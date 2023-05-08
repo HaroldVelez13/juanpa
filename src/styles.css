@@ -1,0 +1,42 @@
+@import 'bulma/css/bulma.css';
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+  }
+  
+  #root {
+    overflow: auto;
+  }
+  
+  body {
+    position: relative;
+    overflow: hidden;
+    overscroll-behavior-y: none;
+    background: white;
+  }
+
+  .animation{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    background: #cfcfcf;
+  }
+  
+
+  .buttons{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
